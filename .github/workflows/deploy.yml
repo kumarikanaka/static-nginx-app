@@ -32,7 +32,6 @@ jobs:
             sudo docker rm -f static-nginx || true
             rm -rf static-nginx-app
             git clone https://github.com/kumarikanaka/static-nginx-app.git
-              static-nginx-app
                cd static-nginx-app
             sudo docker build -t static-nginx .
             sudo docker run -d -p 80:80 --name static-nginx static-nginx

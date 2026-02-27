@@ -31,7 +31,7 @@ jobs:
 
             sudo docker rm -f static-nginx || true
             rm -rf static-nginx-app
-            git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+            git clone https://github.com/kumarikanaka/statc-nginx-app.git
               static-nginx-app
                cd static-nginx-app
             sudo docker build -t static-nginx .
